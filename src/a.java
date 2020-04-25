@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Description:
  * @Author: DongHang
@@ -6,6 +9,8 @@
  */
 public class a {
     public static void main(String[] args) {
-        System.out.println(456);
+        List list = new ArrayList<>();
+        list.add(1);
+        System.out.println(list);
     }
 }
